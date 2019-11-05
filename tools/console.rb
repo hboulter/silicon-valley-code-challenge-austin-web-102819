@@ -54,7 +54,18 @@ wonderful = VentureCapitalist.new("Kevin O'Leary", 700000000)
  uber.sign_contract(daymond, "Angel", 75000)
 
  uber.investors
- puts uber.big_investors
+ uber.big_investors
+ barb.offer_contract(uber, "Series A", 1000)
+ mark.offer_contract(wework, "Pre-Seed", 2345)
+ mark.offer_contract(wework, "Pre-Seed", 9876543)
+
+ mark.funding_rounds.length
+
+mark.portfolio.length
+
+ puts "HEEEEELLLLO"
+ p mark.biggest_investment
+
 
 # Insert code here to run before hitting the binding.pry
 # This is a convenient place to define variables and/or set up new object instances,
